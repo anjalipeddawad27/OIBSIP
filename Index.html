@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar----->
+    <nav class="navbar">
+        <h1 class="logo">Photos</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a></li>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>Gallery</li>
+            <li div class="ctn"><a href=""></a>Contacts</li>
+
+        </ul>
+        <img src="image/a2.jpeg" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h1>Explore The Colorful Images</h1>
+            <div class="line"></div>
+            <h1>A Wonderful Post</h1>
+            <a href="#" class="ctn">Explore</a>
+        </div>
+    </header>
+
+    <section class="style">
+        <div class="title">
+            <h1>ABOUT US</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image/w2.jpeg" alt="">
+                <h4>Wedding Photo</h4>
+                <p> Amazing! The photographs are absolutely gorgeous, we had the best evening going through them all and
+                     remembering little moments of the day – and discovering moments we didn't know had happened.</p>
+                    <a href="#" class="ctn">Explore More</a>
+                </div>
+                <div class="col">
+                    <img src="image/w4.jpeg" alt="">
+                    <h4>Fashion Photo</h4>
+                    <p>These pictures have a story, a narrative surrounding the model and setting. 
+                        Good fashion photography captures a moment in another world, filled with its own characters and settings.
+                         Without a good story.</p>
+                        <a href="#" class="ctn">Explore More</a>
+                    </div>
+                    <div class="col">
+                        <img src="image/n6.jpeg" alt="">
+                        <h4>Nature Photo</h4>
+                        <p> Trails before ales, pines before wines, lakes before cakes. I’m waterfalling for you.
+                            Nature – cheaper than therapy. I lichen you very moss.</p>
+                            <a href="#" class="ctn">Explore More</a>
+                        </div>
+        </div>
+    </section>
+    <section class="Explore">
+        <div class="title">
+            <h1>EXPLORE</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image/a3.jpeg" alt="">
+                    <a href="#" class="ctn">Explore </a>
+                </div>
+                <div class="col">
+                    <img src="image/n1.jpeg" alt="">
+                   
+                        <a href="#" class="ctn">Explore </a>
+                    </div>
+                    <div class="col">
+                        <img src="image/w3.jpeg" alt="">
+                            <a href="#" class="ctn">Explore </a>
+                        </div>
+                        <div class="col">
+                            <img src="image/f2.jpeg" alt="">
+                                <a href="#" class="ctn">Explore </a>
+                            </div>
+                            <div class="col">
+                                <img src="image/f3.jpeg" alt="">
+                                    <a href="#" class="ctn">Explore </a>
+                                </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMMING PHOTOS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </P>
+                <a href="#" class="ctn">Explore More</a>
+
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="image/w7.jpeg" alt="">
+                    <img src="image/f3.jpeg" alt="">
+                    <img src="image/n2.jpeg" alt="">
+                    <img src="image/w5.jpeg" alt="">
+                    <img src="image/f6.jpeg" alt="">
+                    <img src="image/f1.jpeg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Mumbai | Phone: +91 1234567890 | oasisinfobyte@gmail.com</p>
+
+        <p>Photo Gallery</p>
+    </section>
+    <script>
+        const menubtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+        menubtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
